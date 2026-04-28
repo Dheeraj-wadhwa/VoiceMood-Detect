@@ -23,14 +23,12 @@ VoiceMood Detect is a deep learning-based application designed to recognize emot
     streamlit run app.py
     ```
 ## PIPELINE SUMMARY 
-```bash
-1. `config.py` & `utils.py`: Setup and global definitions.
-2. `preprocess.py`**: Transformation of raw audio into mathematical representations.
-3. `dataset.py` & `model.py`: Structure definitions for data feeding and network layout.
-4. `train.py`: Execution of optimization, generating the `.pth` weights.
-5. `predict.py`: Inference logic to utilize trained weights.
-6. `app.py`: End-user interaction and visual results.
-```
+1. **`config.py` & `utils.py`**: Setup and global definitions.
+2. **`preprocess.py`**: Transformation of raw audio into mathematical representations.
+3. **`dataset.py` & `model.py`**: Structure definitions for data feeding and network layout.
+4. **`train.py`**: Execution of optimization, generating the `.pth` weights.
+5. **`predict.py`**: Inference logic to utilize trained weights.
+6. **`app.py`**: End-user interaction and visual results.
 
 ## Project Structure
 - `data/`: Dataset storage.

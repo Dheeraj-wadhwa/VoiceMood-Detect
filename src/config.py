@@ -13,7 +13,7 @@ SAMPLE_RATE = 16000
 DURATION = 3.0  # Seconds to pad/truncate to
 SAMPLES_PER_TRACK = int(SAMPLE_RATE * DURATION)
 
-# Feature Extraction (MFCC)
+# Feature Extraction (MFCC)(Mel-Frequency Cepstral Coefficients)
 N_MFCC = 13
 N_FFT = 2048
 HOP_LENGTH = 512
